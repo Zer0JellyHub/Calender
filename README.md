@@ -23,9 +23,7 @@ A custom tab for Jellyfin that opens a **"Coming Up" popup** directly on the hom
 ## 📋 Requirements
 
 - Jellyfin Server **10.8+**
-- Plugin: **[Custom CSS/JS](https://github.com/nicholasgundersondesign/jellyfin-plugin-custom-css)** — or use the built-in Branding fields
 - Plugin: **[Custom Tabs](https://github.com/nicholasgundersondesign/jellyfin-plugin-custom-tabs)** — **required** for the tab button to appear
-- Recommended: [Ultrachromic Theme](https://github.com/CTalvio/Ultrachromic)
 
 ---
 
@@ -52,13 +50,6 @@ A custom tab for Jellyfin that opens a **"Coming Up" popup** directly on the hom
 1. Go to Jellyfin Dashboard → **General → JS Injector**
 2. Paste the full contents of [`calendar.js`](./calendar.js) into the **Custom JavaScript** field
 3. Save and reload the page
-
----
-
-### Step 3 — Add the CSS (optional but recommended)
-
-1. In the same Branding page, paste the contents of [`custom.css`](./custom.css) into the **Custom CSS** field
-2. This includes the Ultrachromic theme imports and the tab icon styles
 
 ---
 
