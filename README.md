@@ -81,22 +81,6 @@ The *Custom Tabs* plugin acts as the anchor. Without this step, the script won't
   
 ---
 
-## ❓ Troubleshooting
-
-| Problem | Solution |
-|---|---|
-| Tab button not showing | Make sure the Custom Tabs plugin is installed and the tab is named exactly `Calender` |
-| Popup opens but shows nothing | Check the browser console for errors — ApiClient may not be ready |
-| Wrong date range shown | The `Shows/Upcoming` API ignores date parameters — filtering happens client-side |
-| Posters not loading | The script uses `SeriesPrimaryImageTag` — make sure your series have poster images in Jellyfin |
-| Loading is slow | Normal for large libraries — the script fetches up to 500 items on every open |
-| GER / ENG badge missing | Episode has no audio stream metadata yet — will appear once the file is downloaded and scanned |
-| Calendar shows old data | Close and reopen the popup — data is fetched fresh on every open |
-| Tab appears in wrong position | Make sure the Custom Tab is the last entry in the Custom Tabs plugin list |
-| Popup does not close with ESC | Click anywhere on the ✕ button instead — ESC may be captured by Jellyfin in some versions |
-
----
-
 ## 📄 License
 
 **MIT** — Feel free to use, modify, and share!
