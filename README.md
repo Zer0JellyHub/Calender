@@ -52,9 +52,7 @@ The *Custom Tabs* plugin acts as the anchor. Without this step, the script won't
 1.  Go to **Jellyfin Dashboard**
 2.  Locate the **Custom JavaScript code** field.
 3.  Paste the full contents of [`calendar.js`](./calendar.js) into the field.
-4.  Locate the **Custom CSS code** field.
-5.  Paste the contents of [`custom.css`](./custom.css).
-6.  **Save** and refresh your browser.
+4.  **Save** and refresh your browser.
 
 ---
 
